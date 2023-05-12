@@ -24,6 +24,9 @@ from PIL import ImageDraw
 model = torch.load('/home/diwashrestha/projects/GahiroPadhahi/road_quality_detector/model/road_model.pt')
 model.eval()
 
+
+
+
 def classify_image(image_path,model):
    img = image_path
    transform_norm = transforms.Compose([transforms.Resize((300,300)),
