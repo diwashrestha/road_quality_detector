@@ -32,8 +32,6 @@ def predict_class(image_path):
     return class_name
   
   
-  
-  
 def draw_prediction(img, predict_class):
     x, y, w, h = 0, 0, 190, 55
 
