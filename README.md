@@ -17,7 +17,7 @@ Before running the code, ensure that you have the following dependencies install
 
 You can install the required dependencies by running the following command:
 
-"""
+"""python
 pip install -r requirements.txt
 """
 
@@ -36,7 +36,7 @@ The project is organized into multiple files for better code organization and se
 
 To run the application, execute the following command:
 
-"""
+"""python
 streamlit run main.py
 """
 
