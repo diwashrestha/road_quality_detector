@@ -1,6 +1,11 @@
-# 🛣️ Road Quality Detection
+# Road Quality Detection
 
 This project aims to detect the quality of roads in images using a Convolutional Neural Network (CNN) model. It provides a Streamlit-based user interface to upload an image and visualize the predicted road quality.
+
+## App Example
+
+![App Screenshot](app_image/app_image1.png)
+
 
 ## Prerequisites
 
@@ -21,7 +26,6 @@ You can install the required dependencies by running the following command:
 pip install -r requirements.txt
 ```
 
-
 ## Project Structure
 
 The project is organized into multiple files for better code organization and separation of concerns:
@@ -31,7 +35,6 @@ The project is organized into multiple files for better code organization and se
 - `road_quality_classifier.py`: Defines the CNN architecture for road quality classification.
 - `model`: CNN Model for road quality classification inference
 - `test_image`: Sample images
-- 'https://www.kaggle.com/code/diwash1/road-quality-classification/edit': EDA on Data and Model Creation Code
 
 ## Usage
 
@@ -41,7 +44,6 @@ To run the application, execute the following command:
 streamlit run main.py
 ```
 
-
 This will start the Streamlit server, and you can access the application in your web browser.
 
 1. Click on the "Choose a image file" button to select an image file (supported formats: jpg, png, jpeg).
@@ -50,3 +52,11 @@ This will start the Streamlit server, and you can access the application in your
 4. The predicted road quality class will be displayed on the right side along with the image where the prediction is drawn.
 
 Note: Make sure to provide the correct path to the pre-trained model file in the `road_quality_classifier.py` file.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
