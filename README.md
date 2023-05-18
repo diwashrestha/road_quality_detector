@@ -52,11 +52,3 @@ This will start the Streamlit server, and you can access the application in your
 4. The predicted road quality class will be displayed on the right side along with the image where the prediction is drawn.
 
 Note: Make sure to provide the correct path to the pre-trained model file in the `road_quality_classifier.py` file.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
