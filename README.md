@@ -35,6 +35,7 @@ The project is organized into multiple files for better code organization and se
 - `road_quality_classifier.py`: Defines the CNN architecture for road quality classification.
 - `model`: CNN Model for road quality classification inference
 - `test_image`: Sample images
+- 'https://www.kaggle.com/code/diwash1/road-quality-classification' : Code and data for the model creation
 
 ## Usage
 
